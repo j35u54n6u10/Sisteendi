@@ -16,10 +16,10 @@
            <ul class="nav-links">
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Productos</a></li>
-                <li><a href="#">Acerca de</a></li>
+                <li><a href="#about-scroll">Acerca de</a></li>
            </ul>            
         </nav>
-        <a class="btn" href="#"><button>Iniciar Sesión</button></a>
+        <a class="btn" href="views/login.php"><button>Iniciar Sesión</button></a>
 
         <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
 
@@ -28,8 +28,8 @@
             <div class="overlay-content">
                 <a href="#">Inicio</a>
                 <a href="#">Productos</a>
-                <a href="#">Acerca de</a>
-                <a href="#">Iniciar Sesión</a>
+                <a href="about-scroll">Acerca de</a>
+                <a href="views/login.php">Iniciar Sesión</a>
             </div>
         </div>
 
@@ -70,7 +70,7 @@
         </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about-scroll">
         <div class="about-container">
            <h1>¿Quienes somos?</h1>
             <p>
@@ -111,7 +111,7 @@
     </footer>
 
     <script type="text/javascript" src="js/nav.js"></script>
-
+    <script src="js/move-page.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
