@@ -37,7 +37,7 @@
 
     <section class="banner">
         <div class="content-banner">
-            <img src="assets/log.jpeg" alt="logo completo" >
+            <img src="assets/log-c.jpeg" alt="logo completo" >
             <!-- <h1>Dale un gustico</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere molestiae, 
                 repellendus quasi assumenda cumque harum. Quis sapiente hic dicta laboriosam!
