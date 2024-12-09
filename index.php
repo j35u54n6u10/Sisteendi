@@ -70,8 +70,50 @@
         </div>
     </section>
 
+    <section class="about">
+        <div class="about-container">
+           <h1>¿Quienes somos?</h1>
+            <p>
+                En Dale un Gustico somos más que una simple tienda de mini donas. 
+                Somos un pedacito de Maracay en cada bocado, llevando la alegría y el sabor dulce a tu día.
+                Nacimos con la pasión de compartir contigo la felicidad que se siente al disfrutar de una mini dona recién hecha, 
+                con ingredientes de primera calidad y una variedad de sabores que te harán la boca agua.
+            </p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <ul class="social-icon">
+            <li class="icon-elem">
+                <a href="https://www.instagram.com/daleungustico.ve/" class="icon">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+            <li class="icon-elem">
+                <a href="wa.me/584121471391" class="icon">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+            </li>
+
+        </ul>
+        <ul class="footer-menu">
+            <li class="menu-elem">
+                <a href="" class="menu-icon"> Inicio </a>
+            </li>
+            <li class="menu-elem">
+                <a href="" class="menu-icon"> Productos </a>
+            </li>
+            <li class="menu-elem">
+                <a href="" class="menu-icon"> Acerca de </a>
+            </li>
+        </ul>
+        <p class="text">@2024 | Todos los derechos reservados</p>
+    </footer>
 
     <script type="text/javascript" src="js/nav.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </body>
 </html>
