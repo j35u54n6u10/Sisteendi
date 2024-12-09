@@ -35,14 +35,38 @@
 
     </header>
 
-    <section>
-        <div>
-            <h1>Dale un gustico</h1>
+    <section class="banner">
+        <div class="content-banner">
+            <img src="assets/log.jpeg" alt="logo completo" >
+            <!-- <h1>Dale un gustico</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere molestiae, 
                 repellendus quasi assumenda cumque harum. Quis sapiente hic dicta laboriosam!
-            </p>
-            <img src="" alt="">
+            </p> -->
             
+        </div>
+    </section>
+
+    <section class="products-popular">
+        <h1>Productos más vendidos</h1>
+        <div class="pp-container">
+            <div class="product-card">
+                <img src="assets/vasos-donas.webp" alt="Donas dentro de vasos">
+                <h3>VasoKids</h3>
+                <p>3$</p>
+                <button class="button-38">Ordenar ahora</button>
+            </div>
+            <div class="product-card">
+                <img src="assets/seis-donas.webp" alt="Seis donas dentro de una caja">
+                <h3>Mini donas X6</h3>
+                <p>2$</p>
+                <button class="button-38">Ordenar ahora</button>
+            </div>
+            <div class="product-card">
+                <img src="assets/doce-donas.webp" alt="Doce donas dentro de una caja">
+                <h3>Mini donas X12</h3>
+                <p>4$</p>
+                <button class="button-38">Ordenar ahora</button>
+            </div>
         </div>
     </section>
 
