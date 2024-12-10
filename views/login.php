@@ -139,8 +139,10 @@
       </div>
     </main>
 
-    <!-- Javascript file -->
 
+    <!-- TODO Agregar footer -->
+
+    <!-- Javascript file -->
     <script src="../js/login_register.js"></script>
   </body>
 </html>

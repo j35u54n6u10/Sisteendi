@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
+    <!-- FIXME Responsive general de todo el index -->
     <header class="header">
         <div class="logo">
             <img src="assets/loguito.png" alt="Logo de la marca">
@@ -15,7 +16,7 @@
         <nav>
            <ul class="nav-links">
                 <li><a href="#">Inicio</a></li>
-                <li><a href="#">Productos</a></li>
+                <li><a href="views/products.php">Productos</a></li>
                 <li><a href="#about-scroll">Acerca de</a></li>
            </ul>            
         </nav>
@@ -27,7 +28,7 @@
             <a onclick="closeNav()" href="" class="close">&times;</a>
             <div class="overlay-content">
                 <a href="#">Inicio</a>
-                <a href="#">Productos</a>
+                <a href="views/products.php">Productos</a>
                 <a href="about-scroll">Acerca de</a>
                 <a href="views/login.php">Iniciar Sesión</a>
             </div>
@@ -45,7 +46,8 @@
             
         </div>
     </section>
-
+    <!-- TODO Agregar botón para acceder a todos los productos -->
+    <!-- TODO Agregar mismo botón del products -->
     <section class="products-popular">
         <h1>Productos más vendidos</h1>
         <div class="pp-container">
